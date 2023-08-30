@@ -1,0 +1,14 @@
+https://192.168.1.157/ui/#/host/vms/129
+
+https://docs.docker.com/desktop/install/ubuntu/
+
+https://docs.docker.com/desktop/install/linux-install/
+
+https://www.youtube.com/watch?v=Vplj9b0L_1Y
+
+
+docker ps - list all images
+to install google chrome or any application - sudo dpkg -i <.deb file name>
+curl localhost:80
+whereis docker - show full path
+

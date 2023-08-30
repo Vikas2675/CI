@@ -1,0 +1,50 @@
+https://azure.microsoft.com/en-in/products/cognitive-services#tabx414272b7c0444458bd0c3cf972c9ac0b
+
+https://www.youtube.com/watch?v=rvKrtHt4YhA
+
+https://www.youtube.com/watch?v=gw3d9ouGKWU
+
+https://www.youtube.com/watch?v=H8mBWkGWYbc
+
+https://www.youtube.com/watch?v=XLQLNazid4I
+
+
+https://hub.docker.com/_/microsoft-azure-cognitive-services-speechservices-text-to-speech
+
+
+https://www.docker.com/products/docker-desktop/
+
+https://learn.microsoft.com/en-us/windows/wsl/install-manual
+
+https://docs.docker.com/desktop/install/windows-install/#install-from-the-command-line
+
+https://www.c-sharpcorner.com/article/know-how-installing-docker-in-azure-vm/#:~:text=Download%20and%20install%20docker%20from,log%20out%20and%20log%20in.&text=Once%20you%20have%20logged%20in,for%20it%20to%20auto%20restart.
+
+https://docs.docker.com/desktop/install/windows-install/
+
+https://microsoft.github.io/AzureTipsAndTricks/blog/tip321.html
+
+https://www.youtube.com/watch?v=LFZDUnmtTv4
+
+
+
+https://www.youtube.com/watch?v=W9ImzKuQGQ8
+
+
+Correct video to install docker
+https://www.youtube.com/watch?v=CrJqgo_VwxE
+
+docker pull mcr.microsoft.com/azure-cognitive-services/speechservices/speech-to-text
+
+docker run --rm -it -p 5000:5000 -memory 8g --cpus 1 mcr.microsoft.com/azure-cognitive-services/speechservices/speech-to-text Eula=accept Billing=https://centralindia.api.cognitive.microsoft.com/sts/v1.0/issuetoken ApiKey=b605d049e7ed4d3db14b9bbbf44f2f5e
+
+below is the correct run command 
+docker 
+docker run --rm -it -p 5000:5000 -m 8g --cpus 1 mcr.microsoft.com/azure-cognitive-services/speechservices/speech-to-text Eula=accept Billing=https://centralindia.api.cognitive.microsoft.com/sts/v1.0/issuetoken ApiKey=b605d049e7ed4d3db14b9bbbf44f2f5e
+
+to add user into docker user group
+net localgroup docker-users vikas.gupta /add
+
+
+
+
